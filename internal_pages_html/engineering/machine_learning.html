@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Machine Learning</title>
+<style>
+    .roadmap
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shrink-text > p
+    {
+        font-size: 5rem;
+    }
+.header
+{
+    text-align: center;
+    width: 100%;
+}
+
+h1
+{
+    font-family: Josefin Sans;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-size: 5rem;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    line-height: 10px;
+}
+h2,.shrink-text
+{
+    font-family: Josefin Sans;
+    font-weight: 800;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+}
+.image1
+{
+    height: auto;
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.image2
+{
+    height: auto;
+    width: 400px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+button
+{
+    border: none;
+    background: none;
+    margin-left: 20px;
+}
+    
+.shrink-text {
+    font-size: 18px;
+    color: #333; /* Initial text color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add smooth transition effect */
+
+}
+
+.shrink-text:hover {
+    color: #656565; /* Change text color to white on hover */
+    transform: scale(1.1); /* Shrink the text to 90% of its original size on hover */
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    /* gardient */
+    background: #000000; 
+    background-image: linear-gradient(to right, 
+    #d9e8e9, rgb(237, 237, 237));
+    background-size: cover; 
+    background-clip: border-box; 
+    padding-top: 30px;
+    
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    line-height: 2.2rem;
+}
+
+
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* th {
+    background-color: #f2f2f2;
+    color: #333;
+} */
+
+/* Hover Effect */
+a:hover {
+    color: #007bff;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Machine Learning</h1>
+    </div>
+   
+    
+    <h2>Introduction : </h2>
+    <img class="image1" alt="" src="../../Assets/Home_page/Internal_pages/engineering/hand-drawn-flat-design-rpa-illustration_23-2149277643.jpg">
+    <p>Imagine stepping into the world of Machine Learning, where computers can learn and make decisions all on their own. It's like teaching your computer to understand the world around it and predict what might happen next. From helping doctors diagnose diseases earlier to making your favorite apps more personalized, Machine Learning is like magic behind the scenes.
+        Machine Learning stands at the forefront of technological innovation, revolutionizing various industries worldwide. It represents a dynamic intersection of computer science and artificial intelligence, where algorithms are developed to enable computers to learn from data and make predictions or decisions autonomously. By leveraging statistical techniques and computational power, Machine Learning algorithms can detect patterns and insights within vast datasets, leading to advancements in fields such as healthcare, finance, and marketing.
+        As businesses increasingly rely on data-driven insights for strategic decision-making, the demand for skilled professionals in Machine Learning continues to surge. Pursuing a career in Machine Learning offers individuals the opportunity to work on cutting-edge technologies, solve complex problems, and drive innovation in diverse domains.
+        From developing predictive models to optimizing algorithms, Machine Learning professionals play a pivotal role in shaping the future of technology and driving business growth. With abundant job opportunities and competitive salaries, a career in Machine Learning promises exciting prospects for those passionate about data analysis and artificial intelligence.
+        </p>
+    
+    <h2>Pre-requisite Knowledge : </h2>
+    <img class="image2" alt="" src="../../Assets/Home_page/Internal_pages/engineering/symbols-come-out-bulb-top-book_1232-908.jpg">
+    <ul>
+        <li>Mathematical Foundation: In Machine Learning, mathematics serves as the bedrock upon which algorithms are built. Concepts such as calculus, linear algebra, and probability theory form the framework for understanding and developing complex models that drive predictive analytics and pattern recognition.</li>
+        <li>Programming Proficiency: Mastery of programming languages like Python, R, or Java is essential for implementing Machine Learning algorithms and working with large datasets. Proficiency in coding empowers individuals to translate mathematical concepts into practical solutions, enabling the creation of intelligent systems capable of learning from data.</li>
+        <li>Statistical Understanding: In the realm of Machine Learning, statistics acts as a guiding compass, providing insights into data distributions, hypothesis testing, and regression analysis. A thorough understanding of statistical principles is paramount for accurately interpreting data patterns and making informed decisions in predictive modeling</li>
+        <li>Data Structure Fluency: Familiarity with data structures such as arrays, lists, and dictionaries is indispensable for efficient data manipulation and algorithm implementation in Machine Learning. Proficiency in organizing and managing data enables practitioners to navigate through vast datasets seamlessly, facilitating the development of robust and scalable machine learning solutions.</li>
+    </ul>
+     
+    <br>
+   
+
+        <div class="roadmap"><a href="../../Assets/Home_page/Internal_pages/engineering/Machine Learning Engineer-roadmap.jpg"><h2 class="shrink-text"><p>Roadmap</p></h2></a></div>
+
+    <h2>Scope in Masters : </h2>
+    <img class="image1" alt="" src="../../Assets/Home_page/Internal_pages/engineering/student-graduation-cap-diploma-scroll_107791-15847.jpg">
+    <p>A Master's degree in Machine Learning presents a profound opportunity for individuals aspiring to advance their expertise in artificial intelligence and data science. With the global landscape increasingly reliant on data-driven insights for strategic decision-making, the demand for proficient practitioners in Machine Learning is burgeoning across sectors.
+        By pursuing a Master's in Machine Learning, students gain comprehensive knowledge and hands-on experience to tackle intricate challenges in data analysis, pattern recognition, and predictive modeling. Graduates emerge equipped for diverse roles, ranging from Machine Learning Engineer to Data Scientist, AI Research Scientist, and beyond.
+        Furthermore, the scope extends beyond conventional job profiles, with avenues for impactful research and innovation in academia, industry, and governmental domains. In an era characterized by rapid technological advancement and the proliferation of big data, the application of Machine Learning techniques holds vast potential for addressing complex real-world problems.
+        A Master's degree in Machine Learning affords access to lucrative career prospects on a global scale, characterized by competitive remuneration and the opportunity to influence transformative technological advancements. It serves as a gateway to becoming a highly sought-after authority in a field poised for unprecedented growth and innovation.
+        </p>
+
+
+    
+    <h2>Best Countries and Colleges : </h2>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Colleges</th>
+        </tr>
+        <tr>
+            <td>United States</td>
+            <td>Stanford University, Massachusetts Institute of Technology (MIT), University of California, Berkeley, California</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td>University of Oxford, University of Cambridge, Imperial College London</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>University of Toronto, University of British Columbia</td>
+        </tr>
+        <tr>
+            <td>Germany</td>
+            <td>Technical University of Munich (TUM), Munich, University of Freiburg, Freiburg</td>
+        </tr>
+    </table>
+    
+    <h2>Current Demand Scenario : </h2>
+    <p>The demand for professionals in Machine Learning is at an all-time high, with industries across sectors seeking expertise in data analysis, predictive modeling, and artificial intelligence. As businesses increasingly rely on data-driven insights to make strategic decisions, the demand for skilled practitioners capable of leveraging machine learning techniques continues to surge globally.</p>
+    
+    <h2>Job Roles : </h2>
+    <p>In the realm of Machine Learning, professionals engage in a spectrum of tasks aimed at leveraging data to drive strategic decisions and foster innovation within companies. This encompasses:
+        <li>Predictive Modeling: Constructing models to forecast future trends, behaviors, or outcomes by analyzing historical data.</li>
+        <li>Pattern Recognition: Developing algorithms to discern patterns and correlations within vast datasets, facilitating informed decision-making processes.</li>
+        <li>Natural Language Processing: Creating systems capable of understanding, interpreting, and generating human language, enabling applications such as sentiment analysis and language translation.</li>
+        <li>Image Recognition: Designing algorithms to classify and recognize images, with applications spanning industries like healthcare, automotive, and security.</li>
+        <li>Recommendation Systems: Crafting algorithms to analyze user preferences and behaviors, delivering personalized recommendations for products, services, or content.</li>
+        <li>Anomaly Detection: Implementing models to identify unusual or irregular patterns in data, supporting functions such as fraud detection and fault monitoring.</li>
+        <li> Optimization: Applying machine learning techniques to optimize processes, resources, and systems, thereby enhancing operational efficiency and performance.</li>
+        <li> These tasks are integral to various industries, including finance, healthcare, e-commerce, cybersecurity, and beyond, underscoring the pivotal role of machine learning in driving data-driven decision-making and innovation across sectors.</li>
+        </p>
+    
+    <h2>Expected Salary : </h2>
+    <p><li>The expected salary for professionals in Machine Learning varies based on factors such as education, experience, location, and industry. Entry-level positions typically offer salaries ranging from $70,000 to $100,000 annually, with opportunities for advancement and higher earning potential with increased experience and expertise.</li>
+    <li>
+        Experienced professionals and those with advanced degrees, such as a Master's or Ph.D. in Machine Learning or related fields, can command salaries exceeding $150,000 per year, particularly in tech hubs like Silicon Valley or major metropolitan areas
+    </li><li>Additionally, salaries may vary depending on the specific role within Machine Learning, with positions such as Machine Learning Engineer, Data Scientist, or AI Research Scientist offering competitive compensation packages commensurate with the level of expertise and responsibilities involved.</li>
+    <li>
+        Overall, the field of Machine Learning offers lucrative career opportunities with the potential for substantial financial rewards, making it an attractive career path for individuals skilled in data analysis, programming, and artificial intelligence
+    </li></p>
+    
+</div>
+
+</body>
+</html>
