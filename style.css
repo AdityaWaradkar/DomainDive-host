@@ -10,13 +10,13 @@ h1
     font-family: Josefin Sans;
     letter-spacing: 1.5px;
     font-weight: 800;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 body
 {
     
-    background: #24162e; 
+    background: #000000; 
     background-image: linear-gradient(to left, 
     #ffffff, rgb(237, 237, 237));
     background-size: cover; 
@@ -25,45 +25,11 @@ body
     /* background-color: #ffe5c2; */
 }
 
-.nav-bar
-{
-    display: flex;
-    gap: 3rem;
-    justify-content: space-evenly;
-    align-items: center;
-    /* background-color: 
-    #a0a0a0; */
-    padding: 20px 20px;
-    width: 100%;
-}
-
-.cont
+/* .cont
 {
    margin-top: 100px;
 }
 
-
-.nav-bar > a > div
-{
-    border: 2px solid rgb(255, 255, 255);
-    width: 100%;
-    border-radius: 50px;
-    padding: 0px 50px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
-.nav-bar > a > div > p
-{
-
-   padding-top: 12px;
-   color: rgb(0, 0, 0);
-}
-
-.nav-bar > a > div:hover
-{
-        transition: transform 0.2s; /* Smooth transition effect */
-        transform: scale(1.08); /* Scale the div to 1.1 times its original size on hover */
-}
 
 .tabs-1
 {
@@ -93,63 +59,33 @@ body
     border-radius: 30px 0px;
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
+} */
 
-/* footer */
-.foot-panel1
-{
-    background-color: #2e2641;
-    color: white;
-    height: 50px;
-    width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 0.8rem;
-}
 
-.foot-panel2
-{
-    background: #24162e; 
-    background-image: radial-gradient(#ffffff, rgb(226, 225, 225));
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    padding-top: 50px;
-
-}
-
-.foot-panel2  > div > ul
-{
-    list-style: none;
-    font-weight: 600;
-    color: rgb(2, 2, 2);
-    line-height: 2rem;
-    font-size: 0.8rem;
-}
-
-.foot-panel2 > div  > ul > span
-{
-    font-weight: 800;
-    font-size: 0.9rem;
-}
-
-.foot-panel3
-{
-    background-color: #232f3e;
-    border-top: 0.5px solid white;
-    height: 68px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:  center;
-
-}
 
 footer
 {
     margin-top: 40px;
+}
+
+
+
+/* nav bar */
+.nav-link
+{
+    color: rgb(227, 227, 227);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+.collapse
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
